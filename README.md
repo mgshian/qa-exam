@@ -63,3 +63,11 @@ npm run test:headed  # Run tests with a visible browser
 npm run test:debug   # Run tests in Playwright debug mode
 npm run test:report  # Open the latest HTML report
 ```
+
+## Test Execution Results
+
+The following screenshot shows the Playwright test execution report after running the automation suite.
+
+### Playwright HTML Report
+<img width="1024" height="792" alt="image" src="https://github.com/user-attachments/assets/f6e71388-9baa-458b-adb5-5ff21e94854d" />
+
