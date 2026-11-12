@@ -1,0 +1,29 @@
+{
+  "name": "qa-exam",
+  "version": "1.0.0",
+  "description": "QA Assessment using Playwright and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test tests/ui",
+    "test:api": "npx playwright test tests/api",
+    "test:login": "npx playwright test tests/ui/login.spec.js",
+    "test:report": "npx playwright show-report",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug"
+  },
+  "keywords": [
+    "qa",
+    "automation",
+    "playwright",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6",
+    "dotenv": "^18.0.10"
+  }
+}
